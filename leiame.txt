@@ -1,0 +1,16 @@
+____________________________________________________________
+
+Algoritmo conversos de números naturais de Base N para M.
+
+- Código converte qualquer número para de base N para a base 10;
+- Em seguida pega o número de uma base 10 no vetor e o converte para a baseM. 
+
+-------------------------------------------------------------
+
+Compilação e linkedição do programa:
+
+gcc -W -Wall -pendatic -std=c11 n2m.c lib.c -o n2m
+
+Execução e uso:
+
+./n2m <numero> <baseN> <baseM>
